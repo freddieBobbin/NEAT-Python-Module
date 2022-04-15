@@ -1,0 +1,36 @@
+[Run]
+fitness_threshold = 3.9
+
+[Population]
+pop_size = 150
+
+[NeuralNet]
+num_inputs = 2
+num_hidden = 0
+num_outputs = 1
+weight_mean = 0.0
+weight_std = 1.0
+max_weight = 20
+min_weight = -20
+prob_connected = 1.0
+
+[Speciation]
+target_species_num = 5
+distance_threshold = 5
+distance_threshold_adjustment = 0.5
+c1 = 1
+c2 = 1
+c3 = 0.4
+
+[Crossover]
+elitism = True
+stagnation_threshold = 15
+parent_proportion = 0.2
+
+[Mutation]
+add_node_prob = 0.03
+add_conn_prob = 0.05
+mutate_weight_prob = 0.8
+weight_addition_prob = 0.9
+weight_mutate_addition = 0.5
+conn_enable_prob = 0.01
