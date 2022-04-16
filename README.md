@@ -1,11 +1,11 @@
 # NEAT-Python-Module
 Computer Science NEA Project created by Freddie Bobbin
 
-**NEAT requires the use of Python 3.10**
 
-NEAT contains the python files for the NEAT-Python-Module. 
 
-XOR contains:
+**NEAT** contains the python files for the NEAT-Python-Module. 
+
+**XOR** contains:
   The config file which for evolving ANNs that can compute the XOR function.
   THe parameters can be editted and you can look for differences in the ANNs.
   
