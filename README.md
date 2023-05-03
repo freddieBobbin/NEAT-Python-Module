@@ -1,7 +1,7 @@
 # NEAT-Python-Module
 Computer Science NEA Project created by Freddie Bobbin
 
-This Python module is be used to optimise artificial neural networks using the NEAT algorithm.
+This Python module is used to optimise artificial neural networks using the NEAT algorithm.
 A GUI is provided that allows the user to view statistics and see the structure of their
 ANNs.
 
